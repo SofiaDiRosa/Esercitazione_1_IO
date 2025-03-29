@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/appuser/Data/Exercise2/Exercise2/main.cpp" "CMakeFiles/MeanValue.dir/main.cpp.o" "gcc" "CMakeFiles/MeanValue.dir/main.cpp.o.d"
+  "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2/funzioni.cpp" "CMakeFiles/MeanValue.dir/funzioni.cpp.o" "gcc" "CMakeFiles/MeanValue.dir/funzioni.cpp.o.d"
+  "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2/main.cpp" "CMakeFiles/MeanValue.dir/main.cpp.o" "gcc" "CMakeFiles/MeanValue.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

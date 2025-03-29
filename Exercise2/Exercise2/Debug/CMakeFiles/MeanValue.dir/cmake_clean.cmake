@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/MeanValue.dir/funzioni.cpp.o"
+  "CMakeFiles/MeanValue.dir/funzioni.cpp.o.d"
   "CMakeFiles/MeanValue.dir/main.cpp.o"
   "CMakeFiles/MeanValue.dir/main.cpp.o.d"
   "MeanValue"

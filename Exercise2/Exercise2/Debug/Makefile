@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/appuser/Data/Exercise2/Exercise2
+CMAKE_SOURCE_DIR = "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/appuser/Data/Exercise2/Exercise2/Debug
+CMAKE_BINARY_DIR = "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2/Debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/appuser/Data/Exercise2/Exercise2/Debug/CMakeFiles /home/appuser/Data/Exercise2/Exercise2/Debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2/Debug/CMakeFiles" "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2/Debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/appuser/Data/Exercise2/Exercise2/Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2/Debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,30 @@ MeanValue/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MeanValue.dir/build.make CMakeFiles/MeanValue.dir/build
 .PHONY : MeanValue/fast
 
+funzioni.o: funzioni.cpp.o
+.PHONY : funzioni.o
+
+# target to build an object file
+funzioni.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MeanValue.dir/build.make CMakeFiles/MeanValue.dir/funzioni.cpp.o
+.PHONY : funzioni.cpp.o
+
+funzioni.i: funzioni.cpp.i
+.PHONY : funzioni.i
+
+# target to preprocess a source file
+funzioni.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MeanValue.dir/build.make CMakeFiles/MeanValue.dir/funzioni.cpp.i
+.PHONY : funzioni.cpp.i
+
+funzioni.s: funzioni.cpp.s
+.PHONY : funzioni.s
+
+# target to generate assembly for a file
+funzioni.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MeanValue.dir/build.make CMakeFiles/MeanValue.dir/funzioni.cpp.s
+.PHONY : funzioni.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MeanValue"
+	@echo "... funzioni.o"
+	@echo "... funzioni.i"
+	@echo "... funzioni.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

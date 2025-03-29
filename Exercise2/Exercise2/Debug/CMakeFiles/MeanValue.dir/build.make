@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/appuser/Data/Exercise2/Exercise2
+CMAKE_SOURCE_DIR = "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/appuser/Data/Exercise2/Exercise2/Debug
+CMAKE_BINARY_DIR = "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2/Debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MeanValue.dir/depend.make
@@ -72,25 +72,41 @@ include CMakeFiles/MeanValue.dir/flags.make
 CMakeFiles/MeanValue.dir/main.cpp.o: CMakeFiles/MeanValue.dir/flags.make
 CMakeFiles/MeanValue.dir/main.cpp.o: ../main.cpp
 CMakeFiles/MeanValue.dir/main.cpp.o: CMakeFiles/MeanValue.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appuser/Data/Exercise2/Exercise2/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MeanValue.dir/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MeanValue.dir/main.cpp.o -MF CMakeFiles/MeanValue.dir/main.cpp.o.d -o CMakeFiles/MeanValue.dir/main.cpp.o -c /home/appuser/Data/Exercise2/Exercise2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2/Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MeanValue.dir/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MeanValue.dir/main.cpp.o -MF CMakeFiles/MeanValue.dir/main.cpp.o.d -o CMakeFiles/MeanValue.dir/main.cpp.o -c "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2/main.cpp"
 
 CMakeFiles/MeanValue.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MeanValue.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appuser/Data/Exercise2/Exercise2/main.cpp > CMakeFiles/MeanValue.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2/main.cpp" > CMakeFiles/MeanValue.dir/main.cpp.i
 
 CMakeFiles/MeanValue.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MeanValue.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appuser/Data/Exercise2/Exercise2/main.cpp -o CMakeFiles/MeanValue.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2/main.cpp" -o CMakeFiles/MeanValue.dir/main.cpp.s
+
+CMakeFiles/MeanValue.dir/funzioni.cpp.o: CMakeFiles/MeanValue.dir/flags.make
+CMakeFiles/MeanValue.dir/funzioni.cpp.o: ../funzioni.cpp
+CMakeFiles/MeanValue.dir/funzioni.cpp.o: CMakeFiles/MeanValue.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2/Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MeanValue.dir/funzioni.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MeanValue.dir/funzioni.cpp.o -MF CMakeFiles/MeanValue.dir/funzioni.cpp.o.d -o CMakeFiles/MeanValue.dir/funzioni.cpp.o -c "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2/funzioni.cpp"
+
+CMakeFiles/MeanValue.dir/funzioni.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MeanValue.dir/funzioni.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2/funzioni.cpp" > CMakeFiles/MeanValue.dir/funzioni.cpp.i
+
+CMakeFiles/MeanValue.dir/funzioni.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MeanValue.dir/funzioni.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2/funzioni.cpp" -o CMakeFiles/MeanValue.dir/funzioni.cpp.s
 
 # Object files for target MeanValue
 MeanValue_OBJECTS = \
-"CMakeFiles/MeanValue.dir/main.cpp.o"
+"CMakeFiles/MeanValue.dir/main.cpp.o" \
+"CMakeFiles/MeanValue.dir/funzioni.cpp.o"
 
 # External object files for target MeanValue
 MeanValue_EXTERNAL_OBJECTS =
 
 MeanValue: CMakeFiles/MeanValue.dir/main.cpp.o
+MeanValue: CMakeFiles/MeanValue.dir/funzioni.cpp.o
 MeanValue: CMakeFiles/MeanValue.dir/build.make
 MeanValue: /usr/local/lib/libgtest.a
 MeanValue: /usr/local/lib/libgtest_main.a
@@ -99,7 +115,7 @@ MeanValue: /usr/local/lib/libgmock_main.a
 MeanValue: /usr/local/lib/libgmock.a
 MeanValue: /usr/local/lib/libgtest.a
 MeanValue: CMakeFiles/MeanValue.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/appuser/Data/Exercise2/Exercise2/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MeanValue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2/Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MeanValue"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MeanValue.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -111,6 +127,6 @@ CMakeFiles/MeanValue.dir/clean:
 .PHONY : CMakeFiles/MeanValue.dir/clean
 
 CMakeFiles/MeanValue.dir/depend:
-	cd /home/appuser/Data/Exercise2/Exercise2/Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/appuser/Data/Exercise2/Exercise2 /home/appuser/Data/Exercise2/Exercise2 /home/appuser/Data/Exercise2/Exercise2/Debug /home/appuser/Data/Exercise2/Exercise2/Debug /home/appuser/Data/Exercise2/Exercise2/Debug/CMakeFiles/MeanValue.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2/Debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2" "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2" "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2/Debug" "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2/Debug" "/home/appuser/Data/ESERCITAZIONI/Esercitazione 1/Exercise2/Exercise2/Debug/CMakeFiles/MeanValue.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/MeanValue.dir/depend
 

@@ -1,5 +1,5 @@
 CMakeFiles/MeanValue.dir/main.cpp.o: \
- /home/appuser/Data/Exercise2/Exercise2/main.cpp \
+ /home/appuser/Data/ESERCITAZIONI/Esercitazione\ 1/Exercise2/Exercise2/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/fstream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -157,4 +157,13 @@ CMakeFiles/MeanValue.dir/main.cpp.o: \
  /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
- /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/iostream
+ /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/iostream \
+ /usr/include/c++/13/iomanip /usr/include/c++/13/locale \
+ /usr/include/c++/13/bits/locale_facets_nonio.h /usr/include/c++/13/ctime \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/13/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/13/bits/locale_conv.h \
+ /usr/include/c++/13/bits/quoted_string.h /usr/include/c++/13/sstream \
+ /usr/include/c++/13/bits/sstream.tcc \
+ /home/appuser/Data/ESERCITAZIONI/Esercitazione\ 1/Exercise2/Exercise2/funzioni.hpp
